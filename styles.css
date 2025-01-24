@@ -1,0 +1,44 @@
+/* Font Lora for h1 */
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/* Font Comic Neuve for h2 */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FFEC9E;
+  font-family: "Lora", serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-top: 20px;
+  margin-bottom: 2rem;
+  color: #3D3D3D;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Comic Neue", serif;
+}
+
+.player-one h2 {
+  color: #000957;
+}
+
+.player-two h2 {
+  color: #8E1616;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+}
+
+.dices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 100px;
+}
